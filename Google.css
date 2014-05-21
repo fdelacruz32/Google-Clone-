@@ -1,0 +1,163 @@
+
+/****************************
+		GENERAL
+*****************************/
+
+
+*{
+	
+	box-sizing: border-box;
+}
+
+body{
+	font-size:small;
+	font-family:Arial;
+}
+
+a 	{
+	display:inline-block;
+	text-decoration:none;
+	color:#404040;
+	margin:3px;
+	padding:3px;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+html, body, .main-wrapper, {
+	height:100%;
+}
+
+/****************************
+		HEADER
+*****************************/
+
+header{
+ 	text-decoration:none;
+	float:right;
+}
+
+header a{
+	display:inline-block;
+	text-decoration:none;
+	color:#404040;
+	margin:3px;
+	padding:3px;
+	vertical-align:middle;
+
+
+}
+
+header a img{
+border-radius: 2px;
+box-sizing: border-box;
+height: 30px;
+width: 30px;
+
+}
+
+.signin {
+display: inline-block;
+line-height: 28px;
+padding: 0 12px;
+border-radius: 2px;
+background-color:linear-gradient(top,#4387fd,#4683ea);
+}
+
+
+/****************************
+		SECTION
+*****************************/
+
+section {
+	clear:right;
+	position:absolute;
+	top:25%;
+	bottom:25%;
+	left:25%;
+	right:25%;
+
+	
+}
+
+
+.logocontainer img{
+display:block;
+margin:0 auto;
+height:95px;
+width:269px;
+}
+
+
+.searchinputcontainer input{
+	display:block;
+	margin:0 auto;
+	width:570px;
+	border:1px solid blue;
+	padding:5px;
+	font-size:11pt;
+	background-image:url('https://dl.dropboxusercontent.com/u/15152010/thinkful/FEWD/google_clone/images/microphone.png');
+	background-repeat:no-repeat;
+	background-position:100%;
+
+}
+
+.searchbuttoncontainer{
+	text-align:center;
+}
+
+.searchbuttoncontainer a{
+	display:inline-block;
+	margin:2px auto;
+	width:120px;
+	border:1px solid #d8d8d8;
+	padding:1px;
+	font-size:11pt;
+
+
+}
+
+
+/****************************
+		FOOTER
+*****************************/
+
+footer {
+	overflow:auto;
+	background-color:#f2f2f2;
+	width:100%;
+	position:absolute;
+	bottom:0;
+	
+}
+.footerleft{
+	float:left;
+	background-color:#f2f2f2;
+
+	
+}
+
+.footerleft a{
+	display:inline-block;
+	margin:0 auto;
+	margin-right: 16px;
+	padding:0 0 0 27px;
+	max-width:100%;
+	background-color:#f2f2f2;
+	
+}
+.footerright{
+	float:right;
+
+}
+
+.footerright a {
+	display:inline-block;
+	margin: 0 auto;
+	margin-right: 16px;
+	padding:0 0 0 27px;
+	max-width:100%;
+
+}
